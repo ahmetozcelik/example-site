@@ -34,3 +34,14 @@
     width: 4px;
     background-color: #5a9ad7;
 }
+.info{
+    font-size: 21px;
+    color: #8da5bd;
+}
+.info i{
+    color: #2f74b7;
+}
+.lorem{
+    background-color: #434343;
+    font-size: 21px;
+}
