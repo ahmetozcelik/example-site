@@ -1,6 +1,7 @@
 /* Import */
 
 @import "normalize";
+@import "bootstrap.min";
 
 /* Import */
 
@@ -11,68 +12,75 @@ $white: #fff;
 /* Variables */
 
 .container {
- 
+    .row {
+        .col-4 {
+            background-color: #000;
+            .name {
+                height: 145px;
+                background-image: url("../img/topicBg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                .name-text {
+                    font-family: 'Lobster Two', cursive;
+                }
+                
+                .name-text2 {
+                    font-family: 'Open Sans', sans-serif;
+                }
+                
+                
+                .name-1 {
+                    background-color: rgba(2, 66, 138, 0.5)
+                }
+            }
+            .avatar img {
+                background-color: transparent;
+                margin: -40px 0 0 0;
+            }
+            .birthday-experience {
+                font-size: 21px;
+            }
+            .info {
+                font-size: 21px;
+                color: #8da5bd;
+                .info i {
+                    color: #2f74b7;
+                }
+            }
+            .lorem {
+                background-color: #434343;
+                font-size: 21px;
+            }
+            .achievements span {
+                font-size: 25px;
+                .achieve-date {
+                    color: #9cc2e6;
+                }
+            }
+        }
+        .col-8{
+
+        }
+    }
 }
 
-.col-4 {
-    background-color: #000;
-    
-}
-
-.name {
-    height: 145px;
-    background-image: url("../img/topicBg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-   }
 
 
-.name-text {
-    font-family: 'Lobster Two', cursive;
-}
-
-.name-text2 {
-    font-family: 'Open Sans', sans-serif;
-}
 
 
-.name-1 {
-    background-color: rgba(2, 66, 138, 0.5)
-}
 
-.avatar img {
-    background-color: transparent;
-    margin: -40px 0 0 0;
-}
 
-.birthday-experience {
-    font-size: 21px;
-}
 
-.verticle {
-    width: 4px;
-    background-color: #5a9ad7;
-}
 
-.info {
-    font-size: 21px;
-    color: #8da5bd;
-}
 
-.info i {
-    color: #2f74b7;
-}
 
-.lorem {
-    background-color: #434343;
-    font-size: 21px;
-}
 
-.achievements span {
-    font-size: 25px;
-}
 
-.achieve-date {
-    color: #9cc2e6;
-}
+
+
+
+
+
+
+
