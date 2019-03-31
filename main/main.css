@@ -10433,7 +10433,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 .container .row .col-4 .name .name-1 {
   background-color: rgba(2, 66, 138, 0.5);
-  font: 100;
+  font-size: 14px;
 }
 .container .row .col-4 .avatar img {
   background-color: transparent;
